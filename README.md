@@ -14,6 +14,7 @@ The program receives the square as a series of numbers of three digits. Each arg
 This is for example the solution to the Sudoku in the Wikipedia:
 
 $ time ./sudoku 115 123 157 216 241 259 265 329 338 386 418 456 493 514 548 563 591 617 652 696 726 772 788 844 851 869 895 958 987 999
+
 +---------+---------+---------+
 | 5  3  4 | 6  7  8 | 9  1  2 |
 | 6  7  2 | 1  9  5 | 3  4  8 |
@@ -34,6 +35,7 @@ sys		0m0.002s
 This is the puzzle that a Finnish mathematician claims to be the hardest one known for a human:
 
 $ time ./sudoku 118 233 246 327 359 372 425 467 554 565 577 641 683 731 786 798 838 845 881 929 974
+
 +---------+---------+---------+
 | 8  1  2 | 7  5  3 | 6  4  9 |
 | 9  4  3 | 6  8  2 | 1  7  5 |
